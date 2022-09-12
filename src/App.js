@@ -5,8 +5,8 @@ export default function App() {
   return (
 
     <div className="ball">
-      <h1>Reac</h1>
-      <img src="" alt="Ícone do React">
+      <h1>React</h1>
+      <img src="images/react_icon.png" alt="Ícone do React"></img>
     </div>
   );
 }
