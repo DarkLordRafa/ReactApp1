@@ -6,15 +6,25 @@ body{
 }
 
 .container{
-  width: 50vw;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container h1{
   border: 2px solid white;
   border-radius: 100px;
+  padding: 2vw 8vw;
 }
 
 .container img{
-  height: 30vh;
+  height: 25vh;
+  margin-top: 10vh;
+  animation: rotate 1.5s linear infinite;
 }
+
+@keyframes rotate{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(180deg);}
+}
+
