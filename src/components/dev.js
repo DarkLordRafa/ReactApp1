@@ -1,7 +1,7 @@
 
 import React from "react";
 
-function dev({name, age, area, objective}){
+function Dev({name, age, area, objective}){
 
   return(
     <section>
@@ -16,4 +16,4 @@ function dev({name, age, area, objective}){
   )
 }
 
-export default dev
+export default Dev
