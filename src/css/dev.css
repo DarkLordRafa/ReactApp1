@@ -1,7 +1,12 @@
 
 .dev{
   border: 2px solid white;
-  padding: 5vw;
+  padding: 3vw;
+}
+
+.dev h2}
+{
+  margin-bottom: 5vh;
 }
 
 .dev ul{
