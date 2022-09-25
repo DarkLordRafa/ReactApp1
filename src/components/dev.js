@@ -1,11 +1,11 @@
 
 import React from "react";
-import styles from "../css/dev.css";
+import "../css/dev.css";
 
 function Dev({name, age, area, objective}){
 
   return(
-    <section className={styles.dev}>
+    <section className="dev">
       <h2>Desenvolvedor</h2>
       <ul>
         <li>Nome: <span>{name}</span></li>
