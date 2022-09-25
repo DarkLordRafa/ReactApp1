@@ -12,3 +12,10 @@
 .dev ul{
   text-align: left;
 }
+
+.dev__line{
+	height: 3px;
+	width: 50%;
+	background-color: white;
+	margin-top: 10vh;
+}
