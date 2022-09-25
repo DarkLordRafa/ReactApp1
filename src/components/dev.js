@@ -15,7 +15,7 @@ function Dev({name, age, area, objective}){
         <li>Área: <span>{area}</span></li>
         <li>Objetivo: <span>{objective}</span></li>
       </ul>
-      <div className={styles.dev__line}>
+      <div className="dev__line">
       </div>
     </section>
   )

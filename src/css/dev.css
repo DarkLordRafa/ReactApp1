@@ -14,8 +14,8 @@
 }
 
 .dev__line{
-	height: 10px;
-	width: 50vw;
-	background-color: blue;
-	margin-top: 20vh;
+	height: 3px;
+	width: 80%;
+	background-color: white;
+	margin-top: 10vh;
 }
