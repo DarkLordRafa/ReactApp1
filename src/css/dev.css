@@ -15,7 +15,7 @@
 
 .dev__line{
 	height: 3px;
-	width: 50%;
+	width: 50vw;
 	background-color: white;
-	margin-top: 10vh;
+	margin-top: 20vh;
 }
