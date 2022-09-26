@@ -14,9 +14,7 @@ function Wheel(){
     wheelProp.name = wheelPropName[Math.floor((Math.random() * 5) - 1)];
   }
   
-  function tt(){
-    return "tttgg";
-  }
+  var tt = "tttgg";
   
   return(
   
