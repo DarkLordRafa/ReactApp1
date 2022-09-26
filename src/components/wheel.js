@@ -5,12 +5,17 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  var wheelProp = {
-    name: ["Props", "Hooks", "Jsx", "Render"]
+  let wheelProp = {
+    name: ""
   };
   
   function randomProps(){
-    wheelProp.name = wheelProp.name[Math.floor((Math.random() * 5) - 1)];
+    let wheelPropName = ["Props", "Hooks", "Jsx", "Render"];
+    wheelProp.name = wheelPropName[Math.floor((Math.random() * 5) - 1)];
+  }
+  
+  function tt(){
+    return "tttgg";
   }
   
   return(
@@ -18,7 +23,7 @@ function Wheel(){
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{wheelProp.name}</span>
+        <span className ={styles.wheel_text}>{tt}</span>
       </div>
       <div className ={styles.wheel_button}>
         <span>GIRAR</span>
