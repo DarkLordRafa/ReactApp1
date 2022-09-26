@@ -6,7 +6,7 @@ import styles from "../css/wheel.module.css";
 function Wheel(){
 
   function t(name){
-    name = "react";
+    this.name = "react";
   }
 
   return(
