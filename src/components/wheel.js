@@ -1,6 +1,7 @@
 
 import React from "react";
 import styles from "../css/wheel.css";
+import "../css/wheel.css";
 
 function Wheel(){
   return(
