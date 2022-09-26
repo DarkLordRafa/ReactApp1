@@ -5,15 +5,16 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  function bg(){
-    document.this.style.backgroundColor = "red";
+  function t(name){
+    name = "react";
   }
 
   return(
+  
     
     <section className ={styles.wheel_section}>
       <div onClick={bg} className ={styles.wheel}>
-        <span className ={styles.wheel_text}>Props</span>
+        <span className ={styles.wheel_text}>{t.name}</span>
       </div>
       <div className ={styles.wheel_button}>
         <span>GIRAR</span>
