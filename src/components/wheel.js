@@ -5,7 +5,7 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  let wheelProps = {
+  var wheelProps = {
     react: "React",
     props: "Props",
     hooks: "Hooks",
