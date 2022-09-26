@@ -1,0 +1,32 @@
+
+.wheel_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  
+}
+
+.wheel{
+  border: 3px solid royalblue;
+  margin-right: 10vw;
+  overflow: auto;
+  background-color: white;
+  width: 30vw;
+}
+
+.wheel_text{
+  display: block;
+  padding: 5vh 10vh;
+}
+
+.wheel_button{
+  border-radius: 50%;
+  background-color: red;
+  height: 10vw;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
