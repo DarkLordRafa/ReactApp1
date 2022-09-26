@@ -12,6 +12,7 @@ export default function App() {
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Ícone do React"/>
       <ReactInfo />
       <Dev name="Rafael" age="22" area="Front End" objective="Fullstack" />
+      <h2>Gire a roda do React</h2>
       <Wheel />
     </div>
   )
