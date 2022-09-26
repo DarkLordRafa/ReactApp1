@@ -8,7 +8,7 @@ function Wheel(){
   function t(name){
     this.name = "react";
   }
-
+console.log(t.name);
   return(
   
     
