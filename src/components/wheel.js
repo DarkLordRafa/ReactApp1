@@ -6,7 +6,7 @@ import "../css/wheel.css";
 function Wheel(){
   return(
     
-    <section className ="wheel_section">
+    <section className ={styles.wheel_section}>
       <div>
         <span>Props</span>
       </div>
