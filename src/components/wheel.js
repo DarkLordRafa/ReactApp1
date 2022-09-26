@@ -13,7 +13,7 @@ function Wheel(){
   
     
     <section className ={styles.wheel_section}>
-      <div onClick={bg} className ={styles.wheel}>
+      <div className ={styles.wheel}>
         <span className ={styles.wheel_text}>{t.name}</span>
       </div>
       <div className ={styles.wheel_button}>
