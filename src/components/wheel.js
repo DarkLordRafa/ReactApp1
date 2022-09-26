@@ -10,8 +10,9 @@ function Wheel(){
   };
   
   function randomProps(){
-    let wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
-    wheelProp.name = wheelPropList[Math.floor((Math.random() * 5) - 1)];
+    var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
+    wheelProp.name = wheelPropList[Math.floor(Math.random() * 4)];
+    console.log(wheelProp.name);
   }
   
   
