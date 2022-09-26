@@ -6,7 +6,7 @@ import styles from "../css/wheel.module.css";
 function Wheel(){
 
   function bg(){
-    style.backgroundColor = "red";
+    document.this.style.backgroundColor = "red";
   }
 
   return(
