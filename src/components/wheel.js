@@ -13,11 +13,6 @@ function Wheel(){
     var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
     wheelProp.name = wheelPropList[Math.floor(Math.random() * 4)];
     console.log(wheelProp.name);
-    return(
-      <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{wheelProp.name}</span>
-      </div>
-    )
   }
   
   
