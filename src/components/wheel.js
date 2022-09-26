@@ -5,10 +5,10 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  function t(name){
-    this.name = "react";
-  }
-console.log(t.name);
+  let t = {
+    name: "React"
+  };
+  
   return(
   
     
