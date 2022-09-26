@@ -31,4 +31,6 @@ function Wheel(){
   
 }
 
+wheelProps();
+
 export default Wheel
