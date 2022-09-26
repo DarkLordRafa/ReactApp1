@@ -6,7 +6,7 @@ import styles from "../css/wheel.module.css";
 function Wheel(){
 
   var wheelProp = {
-    name: ["Props", "Hooks", "Jsx", "Components"]
+    name: ["Props", "Hooks", "Jsx", "Render"]
   };
   
   function randomProps(){
@@ -27,7 +27,5 @@ function Wheel(){
   )
   
 }
-
-wheelProps();
 
 export default Wheel
