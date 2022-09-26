@@ -5,16 +5,23 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  let t = {
-    name: "React"
+  let wheelProps = {
+    react: "React",
+    props: "Props",
+    hooks: "Hooks",
+    jsx: "Jsx"
   };
+  
+  function randomProps(){
+    return Math.floor((Math.random() * 5) - 1);
+  }
   
   return(
   
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{t.name}</span>
+        <span className ={styles.wheel_text}>{wheelProps.[randomProps()]}</span>
       </div>
       <div className ={styles.wheel_button}>
         <span>GIRAR</span>
