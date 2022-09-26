@@ -7,10 +7,10 @@ function Wheel(){
   return(
     
     <section className ={styles.wheel_section}>
-      <div>
-        <span>Props</span>
+      <div className ={styles.wheel}>
+        <span className ={styles.wheel_text}>Props</span>
       </div>
-      <div>
+      <div className ={styles.wheel_button}>
         <span>GIRAR</span>
       </div>
     </section>
