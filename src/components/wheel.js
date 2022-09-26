@@ -10,8 +10,7 @@ function Wheel(){
   };
   
   function randomProps(){
-    wheelProp.name = wheelProp.name[]
-    return Math.floor((Math.random() * 5) - 1);
+    wheelProp.name = wheelProp.name[Math.floor((Math.random() * 5) - 1)];
   }
   
   return(
@@ -19,7 +18,7 @@ function Wheel(){
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{wheelProps[1]}</span>
+        <span className ={styles.wheel_text}>{wheelProp.name}</span>
       </div>
       <div className ={styles.wheel_button}>
         <span>GIRAR</span>
