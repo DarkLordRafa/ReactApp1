@@ -21,7 +21,7 @@ function Wheel(){
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{wheelProps[randomProps()]}</span>
+        <span className ={styles.wheel_text}>{wheelProps.randomProps()}</span>
       </div>
       <div className ={styles.wheel_button}>
         <span>GIRAR</span>
