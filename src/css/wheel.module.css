@@ -13,11 +13,11 @@
   overflow: auto;
   background-color: white;
   width: 40vw;
+  height: 20vw;
 }
 
 .wheel_text{
   display: block;
-  padding: 2vw 5vw;
   color: black;
   font-weight: bold;
   text-transform: uppercase;
