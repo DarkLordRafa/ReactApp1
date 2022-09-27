@@ -6,7 +6,7 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  let wheelProp [name, update] = useState("");
+  const wheelProp [name,update] = useState("");
   
   function randomProps(){
     var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
