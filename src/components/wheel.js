@@ -14,6 +14,7 @@ function Wheel(){
     console.log(wheelProp);
   }
   
+  setInterval(randomProps, 100)
   
   return(
   
