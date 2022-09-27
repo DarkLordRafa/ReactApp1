@@ -1,12 +1,12 @@
 
 import React from "react";
-import {useState} from "react";
+import { useState } from "react";
 import styles from "../css/wheel.module.css";
 
 
 function Wheel(){
 
-  const wheelProp [name,update] = useState("");
+  const [name, update] = useState("");
   
   function randomProps(){
     var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
