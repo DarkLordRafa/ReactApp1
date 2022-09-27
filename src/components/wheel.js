@@ -6,11 +6,11 @@ import styles from "../css/wheel.module.css";
 
 function Wheel(){
 
-  const [name, update] = useState("");
+  let [wheelProp, update] = useState("");
   
   function randomProps(){
     var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
-    update(name = wheelPropList[Math.floor(Math.random() * 4)]);
+    update(wheelProp = wheelPropList[Math.floor(Math.random() * 4)]);
     console.log(wheelProp);
   }
   
