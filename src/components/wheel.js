@@ -14,9 +14,11 @@ function Wheel(){
     console.log(wheelProp);
   }
   
+  var randomPropsInterval;
+  
   function updateProps(){
-    setInterval(randomProps, 1000);
-    setTimeout(clearInterval(randomProps), 8000);
+    randomPropsInterval = setInterval(randomProps, 200);
+    setTimeout(clearInterval(randomPropsInterval), 4000);
     
   }
   
