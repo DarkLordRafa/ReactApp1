@@ -15,10 +15,14 @@ function Wheel(){
   }
   
   var randomPropsInterval;
+
+  function stopRandomProps(){
+    clearInterval(randomPropsInterval);
+  }
   
   function updateProps(){
     randomPropsInterval = setInterval(randomProps, 200);
-    setTimeout(clearInterval(randomPropsInterval), 4000);
+    setTimeout(stopRandomProps, 4000);
     
   }
   
