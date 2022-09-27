@@ -1,18 +1,17 @@
 
 import React from "react";
+import {useState} from " react";
 import styles from "../css/wheel.module.css";
 
 
 function Wheel(){
 
-  let wheelProp = {
-    name: ""
-  };
+  let wheelProp [name, update] = useState("");
   
   function randomProps(){
     var wheelPropList = ["Props", "Hooks", "Jsx", "Render"];
-    wheelProp.name = wheelPropList[Math.floor(Math.random() * 4)];
-    console.log(wheelProp.name);
+    update(name = wheelPropList[Math.floor(Math.random() * 4)]);
+    console.log(wheelProp);
   }
   
   
@@ -21,7 +20,7 @@ function Wheel(){
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span className ={styles.wheel_text}>{wheelProp.name}</span>
+        <span className ={styles.wheel_text}>{wheelProp}</span>
       </div>
       <div onClick={randomProps} className ={styles.wheel_button}>
         <span>GIRAR</span>
