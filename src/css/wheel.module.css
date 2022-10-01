@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 
 .wheel{
@@ -29,6 +30,9 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 6vw;
+}
+
+.wheel-text-enabled{
   animation: rotate 1s linear infinite;
 }
 
