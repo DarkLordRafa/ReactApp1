@@ -9,7 +9,7 @@ import "../css/wheel.module.css";
 function Wheel(){
   //Armazenando o estado do componente
   let [wheelProp, setWheelProp] = useState("ttt");
-  const [wheelText, setWheelText] = useState(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
+  const [wheelText, setWheelText] = useState(`${styles.wheel_text}`);
   
   function randomProps(){
     let wheelPropList = ["Props", "Hooks", "Jsx", "Render", "State"];
@@ -26,13 +26,13 @@ function Wheel(){
     clearInterval(randomPropsInterval);
   }
   
-  const pp = function(){
+  const stopp = function(){
     setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 3000);
   }
   
   function updateProps(){
-    pp();
-    //setWheelText(`${styles.wheel_text}`);
+    setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
+    stopp();
     
     //randomPropsInterval = setInterval(randomProps, 200);
     
