@@ -39,10 +39,6 @@ function Wheel(){
     setWheelText(`${styles.wheel_text}`);
     clearInterval(iterations);
     }, 5000);
-    
-    //randomPropsInterval = setInterval(randomProps, 200);
-    
-    //setTimeout(stopRandomProps, 4000); 
   }
   
   
