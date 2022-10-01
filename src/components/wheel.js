@@ -45,7 +45,7 @@ function Wheel(){
       <div className ={styles.wheel}>
         <span onAnimationEnd={randomProps} className ={wheelText}>{wheelProp}</span>
       </div>
-      <div onClick=`${updateProps} ${stop}` className ={styles.wheel_button}>
+      <div onClick={updateProps, stop} className ={styles.wheel_button}>
         <span>GIRAR</span>
       </div>
     </section>
