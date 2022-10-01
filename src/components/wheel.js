@@ -26,8 +26,8 @@ function Wheel(){
     clearInterval(randomPropsInterval);
   }
   
-  function updateProps(){
-    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
+  async function updateProps(){
+    await setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
     setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
     //randomPropsInterval = setInterval(randomProps, 200);
     
