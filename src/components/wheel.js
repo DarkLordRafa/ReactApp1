@@ -28,13 +28,14 @@ function Wheel(){
   
   function updateProps(){
     setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
+    stopp();
     //randomPropsInterval = setInterval(randomProps, 200);
     
     //setTimeout(stopRandomProps, 4000); 
   }
   
-  function stop(){
-    setTimeout(setWheelText(`styles.wheel_text`), 3000);
+  function stopp(){
+    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
   }
   
   
@@ -45,7 +46,7 @@ function Wheel(){
       <div className ={styles.wheel}>
         <span onAnimationEnd={randomProps} className ={wheelText}>{wheelProp}</span>
       </div>
-      <div onClick={updateProps, stop} className ={styles.wheel_button}>
+      <div onClick={updateProps} className ={styles.wheel_button}>
         <span>GIRAR</span>
       </div>
     </section>
