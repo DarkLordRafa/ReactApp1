@@ -28,7 +28,7 @@ function Wheel(){
   
   let iterations = function(){setInterval(function(){
     setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
-    setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 500);
+    setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 1500);
   }, 2000);
   }
   
