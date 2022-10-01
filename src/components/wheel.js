@@ -34,7 +34,7 @@ function Wheel(){
   return(
   
     
-    <section className ={styles.wheel_section styles.flex}>
+    <section className ={styles.wheel_section, styles.flex}>
       <div className ={styles.wheel}>
         <span className ={styles.wheel_text}>{wheelProp}</span>
       </div>
