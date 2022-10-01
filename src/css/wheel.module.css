@@ -32,7 +32,7 @@
   font-size: 6vw;
 }
 
-.wheel-text-enabled{
+.wheel_text_enabled{
   animation: rotate 1s linear infinite;
 }
 
