@@ -41,7 +41,7 @@ function Wheel(){
     
     <section className ={styles.wheel_section}>
       <div className ={styles.wheel}>
-        <span onAnimationEnd={randomProps} className ={wheelText}>{wheelProp}</span>
+        <span onAnimationEnd={`${randomProps} ${setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`)}`} className ={wheelText}>{wheelProp}</span>
       </div>
       <div onClick={updateProps} className ={styles.wheel_button}>
         <span>GIRAR</span>
