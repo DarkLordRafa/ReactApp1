@@ -27,7 +27,7 @@ function Wheel(){
   }
   
   const pp = function(){
-    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
+    setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 3000);
   }
   
   function updateProps(){
