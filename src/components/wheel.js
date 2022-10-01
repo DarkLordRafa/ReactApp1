@@ -33,7 +33,7 @@ function Wheel(){
     //setTimeout(stopRandomProps, 4000); 
   }
   
-  function stop{
+  function stop(){
     setTimeout(setWheelText(`styles.wheel_text`), 3000);
   }
   
