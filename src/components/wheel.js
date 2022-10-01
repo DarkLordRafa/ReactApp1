@@ -33,8 +33,10 @@ function Wheel(){
   
   function updateProps(){
     setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
+    setTimeout(function(){
+    setWheelText(`${styles.wheel_text}`);
     clearInterval(iterations);
-    setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 5000);
+    }, 5000);
     
     //randomPropsInterval = setInterval(randomProps, 200);
     
