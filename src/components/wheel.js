@@ -18,8 +18,20 @@ function Wheel(){
     console.log(wheelProp);
   }
   
-  //Variável que armazena o intervalo da função
+  let iterations = function(){setInterval(function(){
+    setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
+    setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 1500);
+  }, 2000);
+  }
   
+  function updateProps(){
+    setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
+    iterations();
+    setTimeout(function(){
+    setWheelText(`${styles.wheel_text}`);
+    clearInterval(iterations);
+    }, 5000);
+  }
   
   
   return(
