@@ -26,7 +26,7 @@ function Wheel(){
     clearInterval(randomPropsInterval);
   }
   
-  const pp = function stopp(){
+  const pp = function(){
     setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
   }
   
