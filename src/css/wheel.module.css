@@ -1,6 +1,6 @@
 
 @keyframes rotate {
-  /*from {transform: translateY(-10vw);}*/
+  from {transform: translateY(-10vw);}*/
   to {transform: translateY(10vw);}
   }
 
