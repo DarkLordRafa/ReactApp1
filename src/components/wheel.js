@@ -26,16 +26,17 @@ function Wheel(){
     clearInterval(randomPropsInterval);
   }
   
+  function stopp(){
+    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
+  }
+  
   function updateProps(){
-    setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
     stopp();
+    setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
+    
     //randomPropsInterval = setInterval(randomProps, 200);
     
     //setTimeout(stopRandomProps, 4000); 
-  }
-  
-  function stopp(){
-    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
   }
   
   
