@@ -29,7 +29,7 @@ function Wheel(){
   let iterations = setInterval(function(){
     setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
     setTimeout(function(){setWheelText(`${styles.wheel_text}`)}, 1000);
-  }), 2000;
+  }, 2000);
   
   function updateProps(){
     setWheelText(`${styles.wheel_text} ${styles.wheel_text_enabled}`);
