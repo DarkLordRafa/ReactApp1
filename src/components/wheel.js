@@ -3,6 +3,7 @@ import React from "react";
 //Importando o useState do React
 import { useState } from "react";
 import styles from "../css/wheel.module.css";
+import "../css/wheel.module.css";
 
 
 function Wheel(){
