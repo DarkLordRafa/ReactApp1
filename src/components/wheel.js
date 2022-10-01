@@ -1,24 +1,32 @@
 
 import React from "react";
+//Importando o useState do React
 import { useState } from "react";
 import styles from "../css/wheel.module.css";
 
 
 function Wheel(){
-
-  let [wheelProp, update] = useState("");
+  //Armazenando o estado do componente
+  let [wheelProp, setWheelProp] = useState("");
   
   function randomProps(){
     let wheelPropList = ["Props", "Hooks", "Jsx", "Render", "State"];
-    update(wheelProp = wheelPropList[Math.floor(Math.random() * 5)]);
+    //Atualizando o estado do componente no virtual DOM para re-renderizar
+    setWheelProp(wheelProp = wheelPropList[Math.floor(Math.random() * 5)]);
     console.log(wheelProp);
   }
   
+  //Variável que armazena o intervalo da função
   var randomPropsInterval;
+
+  //Função para resetar o intervalo
+  function stopRandomProps(){
+    clearInterval(randomPropsInterval);
+  }
   
   function updateProps(){
     randomPropsInterval = setInterval(randomProps, 200);
-    setTimeout(clearInterval(randomPropsInterval), 4000);
+    setTimeout(stopRandomProps, 4000);
     
   }
   
