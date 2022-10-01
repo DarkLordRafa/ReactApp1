@@ -34,7 +34,6 @@
 
 .wheel_text_enabled{
   animation: rotate 1s linear infinite;
-  font-size: 10vw;
 }
 
 .wheel_button{
