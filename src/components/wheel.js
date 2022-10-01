@@ -31,7 +31,7 @@ function Wheel(){
     //randomPropsInterval = setInterval(randomProps, 200);
     
     //setTimeout(stopRandomProps, 4000); 
-    setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
+    setTimeout(async setWheelText(`${styles.wheel_text}`), 3000);
   }
   
   
