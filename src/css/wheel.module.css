@@ -33,7 +33,7 @@
 }
 
 .wheel_text_enabled{
-  animation: rotate 0.5s linear;
+  animation: rotate 0.5s;
 }
 
 .wheel_button{
