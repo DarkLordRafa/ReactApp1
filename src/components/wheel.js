@@ -26,12 +26,12 @@ function Wheel(){
     clearInterval(randomPropsInterval);
   }
   
-  function stopp(){
+  const pp = function stopp(){
     setTimeout(setWheelText(`${styles.wheel_text}`), 3000);
   }
   
   function updateProps(){
-    stopp();
+    pp;
     setWheelText(`${styles.wheel_text}  ${styles.wheel_text_enabled}`);
     
     //randomPropsInterval = setInterval(randomProps, 200);
