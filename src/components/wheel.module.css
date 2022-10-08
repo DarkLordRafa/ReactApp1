@@ -1,0 +1,51 @@
+
+@keyframes rotate {
+  from {transform: translateY(-10vw);}*/
+  to {transform: translateY(10vw);}
+  }
+
+.wheel_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.wheel{
+  border: 3px solid royalblue;
+  margin-right: 5vw;
+  overflow: hidden;
+  background-color: white;
+  width: 40vw;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheel_text{
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 6vw;
+}
+
+.wheel_text_enabled{
+  transform: translateY(-10vw);
+  animation: rotate 0.5s linear;
+}
+
+.wheel_button{
+  border-radius: 50%;
+  background-color: red;
+  height: 15vw;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
