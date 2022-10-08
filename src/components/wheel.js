@@ -2,7 +2,7 @@
 import React from "react";
 //Importando o useState do React
 import { useState } from "react";
-import "./wheel.module.css";
+import "./wheel.css";
 
 
 function Wheel(){
