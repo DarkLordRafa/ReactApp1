@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-scripts": "latest",
+    "typescript": "^3.2.1 || ^4"
   },
   "scripts": {
     "start": "react-scripts start",
