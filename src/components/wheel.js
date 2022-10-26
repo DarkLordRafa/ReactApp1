@@ -13,16 +13,18 @@ function Wheel(){
   function randomProps(){
     let wheelPropList = ["Props", "Hooks", "Jsx", "Render", "State"];
     //Atualizando o estado do componente no virtual DOM para re-renderizar
+    if (finishedRotate === false){
     setWheelProp(wheelProp = wheelPropList[Math.floor(Math.random() * 5)]);
     console.log(wheelProp);
+    }
   }
   
-var finished;
+var finishedRotate;
   
 function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){
-    	if (finished === false){
+    	if (finishedRotate === false){
     	setWheelText(`wheel_text`);
     	}
     	else{
@@ -35,9 +37,8 @@ function wheelTextClass(){
   	finished = false;
     const iterations = setInterval(wheelTextClass, 2000);
     setTimeout(function(){
-    finished = true;
+    finishedRotate = true;
     clearInterval(iterations);
-    setWheelText(`wheel_text_center`);
     }, 10000);
   }
   
