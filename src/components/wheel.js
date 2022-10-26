@@ -7,7 +7,7 @@ import "../css/wheel.css";
 
 function Wheel(){
   //Armazenando o estado do componente
-  let [wheelProp, setWheelProp] = useState("ttt");
+  let [wheelProp, setWheelProp] = useState();
   const [wheelText, setWheelText] = useState(`wheel_text`);
   
   function randomProps(){
