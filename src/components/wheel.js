@@ -37,7 +37,7 @@ function Wheel(){
   	finishedRotate = false;
     const iterations = setInterval(wheelTextClass, 2000);
     setTimeout(async function(){
-    await finishedRotate = true;
+    finishedRotate = await true;
     clearInterval(iterations);
     }, 10000);
   }
