@@ -19,10 +19,10 @@ function Wheel(){
   
 function tt(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    setTimeout(function(){setWheelText(`wheel_text`)}, 1500);
+    setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
 }
   
-  var iterations = function(){setInterval(tt, 3000)};
+  var iterations = function(){setInterval(tt, 2000)};
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
