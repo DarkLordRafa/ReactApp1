@@ -29,7 +29,7 @@ function tt(){
     iterations();
     setTimeout(function(){
     //setWheelText(`wheel_text`);
-    clearInterval(iterations);
+    clearInterval(tt);
     }, 2000);
   }
   
