@@ -9,6 +9,7 @@ function Wheel(){
   //Armazenando o estado do componente
   let [wheelProp, setWheelProp] = useState();
   const [wheelText, setWheelText] = useState(`wheel_text`);
+  var finishedRotate;
   
   function randomProps(){
     let wheelPropList = ["Props", "Hooks", "Jsx", "Render", "State"];
@@ -19,7 +20,6 @@ function Wheel(){
     }
   }
   
-var finishedRotate;
   
 function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
