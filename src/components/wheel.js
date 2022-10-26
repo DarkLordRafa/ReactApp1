@@ -17,18 +17,18 @@ function Wheel(){
     console.log(wheelProp);
   }
   
-  let iterations = function(){setInterval(function(){
+function tt(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){setWheelText(`wheel_text`)}, 1500);
-  }, 2000);
-  };
+  
+  let iterations = function(){setInterval(tt), 3000};
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
     iterations();
     setTimeout(function(){
     //setWheelText(`wheel_text`);
-    iterations.clearInterval();
+    clearInterval(iterations);
     }, 2000);
   }
   
