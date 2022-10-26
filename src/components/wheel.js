@@ -24,11 +24,11 @@ function tt(){
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    var iterations = setInterval(tt, 2000);
+    const iterations = setInterval(tt, 2000);
     setTimeout(function(){
-    //setWheelText(`wheel_text`);
+    setWheelText(`wheel_text wheel_text_center`);
     clearInterval(iterations);
-    }, 5000);
+    }, 10000);
   }
   
   function ccc(){
@@ -46,7 +46,6 @@ function tt(){
       <div onClick={updateProps} className ="wheel_button">
         <span>GIRAR</span>
       </div>
-      <div onClick={ccc}>Tttttttt</div>
     </section>
   )
   

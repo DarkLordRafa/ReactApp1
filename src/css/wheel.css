@@ -37,6 +37,10 @@
   animation: rotate-wheel 0.2s linear forwards;
 }
 
+.wheel_text_center{
+  transform: translateY(0);
+}
+
 .wheel_button{
   border-radius: 50%;
   background-color: red;
