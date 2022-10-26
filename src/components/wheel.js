@@ -19,13 +19,14 @@ function Wheel(){
   
 function tt(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    setTimeout(function(){setWheelText(`wheel_text_center`)}, 1000);
+    setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
 }
   
   function updateProps(){
     const iterations = setInterval(tt, 2000);
     setTimeout(function(){
     clearInterval(iterations);
+    clearTimeou(tt);
     setWheelText(`wheel_text_center`);
     }, 10000);
   }
