@@ -14,10 +14,9 @@ function Wheel(){
   function randomProps(){
     let wheelPropList = ["Props", "Hooks", "Jsx", "Render", "State"];
     //Atualizando o estado do componente no virtual DOM para re-renderizar
-    if (finishedRotate !== true){
+    if (finishedRotate != true){
     setWheelProp(wheelProp = wheelPropList[Math.floor(Math.random() * 5)]);
     console.log(wheelProp);
-    return;
     }
   }
   
