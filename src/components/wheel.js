@@ -44,7 +44,7 @@ function tt(){
       <div onClick={updateProps} className ="wheel_button">
         <span>GIRAR</span>
       </div>
-      <span onClick={clearInterval(tt)}>Ttt</span>
+      <span onClick={clearInterval(iterations)}>Ttt</span>
     </section>
   )
   
