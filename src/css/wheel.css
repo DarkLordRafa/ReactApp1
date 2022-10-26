@@ -3,6 +3,10 @@
   50% {transform: translateY(0);}
   100% {transform: translateY(10vw);}
   }
+  
+@keyframes rotate-wheels {
+  100% {transform: translateY(0);}
+  }
 
 .wheel_section{
   display: flex;
@@ -43,7 +47,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 6vw;
-  transform: translateY(0);
+  animation: rotate-wheels 0.5s linear forwards;
 }
 
 .wheel_button{
