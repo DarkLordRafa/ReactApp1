@@ -5,6 +5,7 @@
   }
   
 @keyframes rotate-wheels {
+	0% {transform: translateY(-10vw);}
   100% {transform: translateY(0);}
   }
 
