@@ -22,11 +22,11 @@ function tt(){
     setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
 }
   
-  var iterations;
+  var iterations = function(){setInterval(tt, 2000)};
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    iterations = function(){setInterval(tt, 2000)};
+    iterations();
     setTimeout(function(){
     //setWheelText(`wheel_text`);
     clearInterval(iterations);
