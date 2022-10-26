@@ -33,6 +33,10 @@ function tt(){
     }, 5000);
   }
   
+  function ccc(){
+  	clearInterval(iterations);
+  }
+  
   
   return(
   
@@ -44,7 +48,7 @@ function tt(){
       <div onClick={updateProps} className ="wheel_button">
         <span>GIRAR</span>
       </div>
-      <div onClick={clearInterval(iterations)}>Tttttttt</div>
+      <div onClick={ccc}>Tttttttt</div>
     </section>
   )
   
