@@ -24,7 +24,7 @@ function Wheel(){
  function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){
-    	if (finishedRotate === false){
+    	if (finishedRotate !== true){
     	setWheelText(`wheel_text`);
     	}
     	else{
@@ -33,11 +33,11 @@ function Wheel(){
     }, 1000);
 }
   
-  async function updateProps(){
+  function updateProps(){
   	finishedRotate = false;
     const iterations = setInterval(wheelTextClass, 2000);
-    setTimeout(async function(){
-    finishedRotate = await true;
+    setTimeout(function(){
+    finishedRotate = true;
     clearInterval(iterations);
     }, 10000);
   }
