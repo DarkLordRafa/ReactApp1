@@ -19,14 +19,19 @@ function Wheel(){
   
 function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    var resetWheelTextClass = setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
+    setTimeout(function(){
+    	if (finished === false){
+    	setWheelText(`wheel_text`);
+    	}
+    }, 1000);
 }
   
   function updateProps(){
+  	var finished = false;
     const iterations = setInterval(wheelTextClass, 2000);
     setTimeout(function(){
+    finished = true;
     clearInterval(iterations);
-    clearTimeout(resetWheelTextClass);
     setWheelText(`wheel_text_center`);
     }, 10000);
   }
@@ -34,7 +39,6 @@ function wheelTextClass(){
   
   return(
   
-    
     <section className ="wheel_section">
       <div className ="wheel">
         <span onAnimationEnd={randomProps} className ={wheelText}>{wheelProp}</span>
