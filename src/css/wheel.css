@@ -35,6 +35,7 @@
 
 .wheel_text_enabled{
   animation: rotate-wheel 0.2s linear forwards;
+  animation-iteration-count: 1;
 }
 
 .wheel_button{
