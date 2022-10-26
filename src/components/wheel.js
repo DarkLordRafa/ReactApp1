@@ -17,16 +17,16 @@ function Wheel(){
     console.log(wheelProp);
   }
   
-function tt(){
+function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
-    setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
+    var resetWheelTextClass = setTimeout(function(){setWheelText(`wheel_text`)}, 1000);
 }
   
   function updateProps(){
-    const iterations = setInterval(tt, 2000);
+    const iterations = setInterval(wheelTextClass, 2000);
     setTimeout(function(){
     clearInterval(iterations);
-    clearTimeout(tt);
+    clearTimeout(resetWheelTextClass);
     setWheelText(`wheel_text_center`);
     }, 10000);
   }
