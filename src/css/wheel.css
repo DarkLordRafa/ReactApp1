@@ -1,7 +1,8 @@
 
 @keyframes rotate-wheel {
-  from {transform: translateY(-10vw);}
-  to {transform: translateY(10vw);}
+  0% {transform: translateY(-10vw);}
+  80% {transform: translateY(10vw);}
+  100% {transform: translateY(-10vw);}
   }
 
 .wheel_section{
