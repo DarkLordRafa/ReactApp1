@@ -36,7 +36,7 @@
 
 .wheel_text_enabled{
   traansform: translateY(-10vw);
-  animation: rotate-wheel 0.5s forward;
+  animation: rotate-wheel 0.5s forwards;
 }
 
 .wheel_button{
