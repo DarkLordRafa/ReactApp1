@@ -1,6 +1,6 @@
 
-@keyframes rotates {
-  from {transform: translateY(-10vw);}
+@keyframes rotate-wheel {
+  from {transform: translateY(0);}
   to {transform: translateY(10vw);}
   }
 
@@ -34,7 +34,7 @@
 
 .wheel_text_enabled{
   transform: translateY(-10vw);
-  animation: rotates 0.5s linear;
+  animation: rotate-wheel 0.5s linear;
 }
 
 .wheel_button{
