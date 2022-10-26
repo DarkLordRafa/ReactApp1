@@ -2,7 +2,8 @@
 @keyframes rotate-wheel {
   0% {transform: translateY(-10vw);}
   80% {transform: translateY(10vw);}
-  100% {transform: translateY(-10vw);}
+  90% {opacity: 0; transform: translateY(-10vw);}
+  100% {opacity: 1; transform: translateY(-10vw);}
   }
 
 .wheel_section{
@@ -35,7 +36,7 @@
 
 .wheel_text_enabled{
   traansform: translateY(-10vw);
-  animation: rotate-wheel 0.5s linear;
+  animation: rotate-wheel 0.5s forward;
 }
 
 .wheel_button{
