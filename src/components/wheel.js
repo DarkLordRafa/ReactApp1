@@ -25,6 +25,9 @@ function wheelTextClass(){
     	if (finished === false){
     	setWheelText(`wheel_text`);
     	}
+    	else{
+    		setWheelText(`wheel_text_center`);
+    	}
     }, 1000);
 }
   
