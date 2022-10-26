@@ -34,7 +34,7 @@
 }
 
 .wheel_text_enabled{
-  animation: rotate-wheel 0.2s linear forwards;
+  animation: rotate-wheel 0.2s linear;
 }
 
 .wheel_text_center{
