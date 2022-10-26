@@ -28,7 +28,7 @@ function Wheel(){
     iterations();
     setTimeout(function(){
     //setWheelText(`wheel_text`);
-    clearInterval(iterations);
+    window.clearInterval();
     }, 2000);
   }
   
