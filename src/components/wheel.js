@@ -30,12 +30,12 @@ function Wheel(){
     	else{
     		setWheelText(`wheel_text_center`);
     	}
-    }, 200);
+    }, 300);
 }
   
   function updateProps(){
   	finishedRotate = false;
-    const iterations = setInterval(wheelTextClass, 300);
+    const iterations = setInterval(wheelTextClass, 500);
     setTimeout(function(){
     clearInterval(iterations);
     finishedRotate = true;
