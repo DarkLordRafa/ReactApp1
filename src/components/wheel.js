@@ -27,7 +27,7 @@ function Wheel(){
     setWheelText(`wheel_text wheel_text_enabled`);
     iterations();
     setTimeout(function(){
-    setWheelText(`wheel_text`);
+    //setWheelText(`wheel_text`);
     clearInterval(iterations);
     }, 2000);
   }
