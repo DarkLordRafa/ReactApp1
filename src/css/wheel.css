@@ -48,7 +48,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 6vw;
-  animation: rotate-wheels 2s linear forwards!important;
+  animation: rotate-wheels 1s linear forwards!important;
 }
 
 .wheel_button{
