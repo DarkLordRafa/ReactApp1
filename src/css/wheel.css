@@ -1,6 +1,7 @@
 
 @keyframes rotate-wheel {
   0% {transform: translateY(-10vw);}
+  50% {transform: translateY(0);}
   80% {transform: translateY(10vw);}
   90% {opacity: 0; transform: translateY(-10vw);}
   100% {opacity: 1; transform: translateY(-10vw);}
