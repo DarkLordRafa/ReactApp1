@@ -33,7 +33,7 @@
 }
 
 .wheel_text_enabled{
-  transform: translateY(-10vw);
+  traansform: translateY(-10vw);
   animation: rotate-wheel 0.5s linear;
 }
 
