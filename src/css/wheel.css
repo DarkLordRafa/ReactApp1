@@ -30,7 +30,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 6vw;
-  traansform: translateY(-10vw);
+  transform: translateY(-10vw);
 }
 
 .wheel_text_enabled{
@@ -38,7 +38,7 @@
 }
 
 .wheel_text_center{
-  transform: translateY(0);
+  transform: translateY(0vw);
 }
 
 .wheel_button{
