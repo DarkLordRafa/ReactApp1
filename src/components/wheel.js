@@ -33,11 +33,11 @@ function Wheel(){
     }, 1000);
 }
   
-  async function updateProps(){
-  	await finishedRotate = false;
+  function updateProps(){
+  	finishedRotate = false;
     const iterations = setInterval(wheelTextClass, 2000);
-    setTimeout(function(){
-    finishedRotate = true;
+    setTimeout(async function(){
+    await finishedRotate = true;
     clearInterval(iterations);
     }, 10000);
   }
