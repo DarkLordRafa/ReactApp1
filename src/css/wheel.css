@@ -38,7 +38,7 @@
 }
 
 .wheel_text_center{
-  transform: translateY(0);
+  transform: translateY(0)!important;
 }
 
 .wheel_button{

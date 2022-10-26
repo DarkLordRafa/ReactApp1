@@ -31,10 +31,6 @@ function tt(){
     }, 10000);
   }
   
-  function ccc(){
-  	clearInterval(iterations);
-  }
-  
   
   return(
   
