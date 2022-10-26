@@ -30,7 +30,7 @@ function Wheel(){
     	else{
     		setWheelText(`wheel_text_center`);
     	}
-    }, 2000);
+    }, 1000);
 }
   
   function updateProps(){
