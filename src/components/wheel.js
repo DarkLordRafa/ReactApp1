@@ -21,7 +21,7 @@ function Wheel(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){setWheelText(`wheel_text`)}, 1500);
   }, 2000);
-  }
+  };
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
@@ -29,7 +29,7 @@ function Wheel(){
     setTimeout(function(){
     setWheelText(`wheel_text`);
     clearInterval(iterations);
-    }, 5000);
+    }, 2000);
   }
   
   
