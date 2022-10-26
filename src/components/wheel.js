@@ -22,14 +22,14 @@ function tt(){
     setTimeout(function(){setWheelText(`wheel_text`)}, 1500);
 }
   
-  let iterations = function(){setInterval(tt, 3000)};
+  var iterations = function(){setInterval(tt, 3000)};
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
     iterations();
     setTimeout(function(){
     //setWheelText(`wheel_text`);
-    clearInterval(tt);
+    clearInterval(iterations);
     }, 5000);
   }
   
@@ -44,7 +44,7 @@ function tt(){
       <div onClick={updateProps} className ="wheel_button">
         <span>GIRAR</span>
       </div>
-      <div onClick={clearInterval(tt)}>Tttttttt</div>
+      <div onClick={clearInterval(iterations)}>Tttttttt</div>
     </section>
   )
   
