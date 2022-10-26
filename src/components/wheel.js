@@ -26,7 +26,7 @@ function tt(){
     const iterations = setInterval(tt, 2000);
     setTimeout(function(){
     clearInterval(iterations);
-    setWheelText(`wheel_text wheel_text_center`);
+    setWheelText(`wheel_text_center`);
     }, 10000);
   }
   
