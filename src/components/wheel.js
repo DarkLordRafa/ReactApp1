@@ -17,6 +17,8 @@ function Wheel(){
     console.log(wheelProp);
   }
   
+var finished;
+  
 function wheelTextClass(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){
@@ -27,7 +29,7 @@ function wheelTextClass(){
 }
   
   function updateProps(){
-  	var finished = false;
+  	finished = false;
     const iterations = setInterval(wheelTextClass, 2000);
     setTimeout(function(){
     finished = true;
