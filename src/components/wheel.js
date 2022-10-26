@@ -17,6 +17,7 @@ function Wheel(){
     if (finishedRotate !== true){
     setWheelProp(wheelProp = wheelPropList[Math.floor(Math.random() * 5)]);
     console.log(wheelProp);
+    return;
     }
   }
   
