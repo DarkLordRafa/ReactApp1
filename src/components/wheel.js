@@ -35,7 +35,7 @@ function Wheel(){
   
   function updateProps(){
   	finishedRotate = false;
-    const iterations = setInterval(wheelTextClass, 2000);
+    const iterations = setInterval(wheelTextClass, 500);
     setTimeout(function(){
     clearInterval(iterations);
     finishedRotate = true;
