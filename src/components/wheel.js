@@ -42,8 +42,9 @@ function tt(){
         <span onAnimationEnd={randomProps} className ={wheelText}>{wheelProp}</span>
       </div>
       <div onClick={updateProps} className ="wheel_button">
-        <span onClick={clearInterval(tt)}>GIRAR</span>
+        <span>GIRAR</span>
       </div>
+      <span onClick={clearInterval(tt)}>Ttt</span>
     </section>
   )
   
