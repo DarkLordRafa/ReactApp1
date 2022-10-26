@@ -21,7 +21,7 @@ function tt(){
     setWheelText(`wheel_text wheel_text_enabled`);
     setTimeout(function(){setWheelText(`wheel_text`)}, 1500);
   
-  let iterations = function(){setInterval(tt), 3000};
+  let iterations = function(){setInterval(tt, 3000)};
   
   function updateProps(){
     setWheelText(`wheel_text wheel_text_enabled`);
