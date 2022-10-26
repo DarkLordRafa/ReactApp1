@@ -38,7 +38,8 @@
 }
 
 .wheel_text_center{
-  transform: translateY(0)!important;
+  transform: translateY(0);
+  animation: none;
 }
 
 .wheel_button{
